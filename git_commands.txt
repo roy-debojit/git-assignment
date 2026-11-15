@@ -1,0 +1,26 @@
+git --version - Checks that Git is installed.
+git config --global user.name/user.email - Sets the author identity for all commits.
+git config --global init.defaultBranch main - Makes main the default branch name for new repositories.
+mkdir <folder> - Creates a new folder.
+cd <folder> - Moves into a folder.
+echo "text" > file - Creates a file with the given text (>> appends instead).
+ls -a - Lists all files, including hidden ones like .git.
+git init - Initializes a new Git repository in the current folder.
+git add . - Stages all changes for the next commit.
+git add <file> - Stages one specific file.
+git commit -m "msg" - Saves staged changes as a commit with a message.
+git log --oneline - Shows a compact one-line-per-commit history.
+git log --oneline --graph --all - Shows compact history with a branch graph for all branches.
+git branch feature - Creates a new branch named feature.
+git branch - Lists branches and marks the current one.
+git switch <branch> - Switches to the given branch.
+git merge --no-ff feature -m "msg" - Merges feature into the current branch, always creating a merge commit.
+git status - Shows the state of the working directory and staging area.
+printf "*.log\ntemp/\n" > .gitignore - Creates .gitignore to ignore .log files and the temp folder.
+cat <file> - Prints the contents of a file.
+git reset --hard HEAD~1 - Undoes the last commit and discards its changes.
+git remote add origin <url> - Links the local repo to the GitHub repository.
+git remote -v - Shows the configured remote URLs.
+git branch -M main - Renames the current branch to main.
+git push -u origin main - Pushes main to GitHub and sets upstream tracking.
+git push origin feature - Pushes the feature branch to GitHub.
